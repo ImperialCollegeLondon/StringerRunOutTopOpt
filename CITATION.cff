@@ -17,10 +17,11 @@ authors:
     orcid: 'https://orcid.org/0000-0001-5727-7041'
 identifiers:
   - type: doi
+    value: 10.5281/zenodo.8148679
+    description: Zenodo
+  - type: doi
     value: 10.1016/j.compstruct.2023.117314
     description: Paper
-repository-code: >-
-  https://github.com/ImperialCollegeLondon/StringerRunOutTopOpt
 url: 'https://pinholab.cc.ic.ac.uk/'
 abstract: >-
   The manufacturing of composite structures can lead to
@@ -54,3 +55,6 @@ keywords:
   - Composite material
   - Multi-scale methods
 license: BSD-3-Clause
+commit: 05b574baa468adb607a30dd44f102542f1f6fe7c
+version: v1.0.0
+date-released: '2023-07-23'
