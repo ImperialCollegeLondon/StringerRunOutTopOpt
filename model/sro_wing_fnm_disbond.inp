@@ -1,0 +1,35 @@
+*Heading
+*Preprint, echo=NO, model=NO, history=NO, contact=NO
+*Include, input=./sro_wing_fnm_disbond_adjel/uel.inp
+*Part, name=rib
+*Include, input=./sro_wing_fnm_disbond_adjel/part_rib_node.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_rib_element_s4r.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_rib_nset.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_rib_elset.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_rib_shell.inp
+*End Part
+*Part, name=sro
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_node_shift.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_element_sc8r.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_element_u810.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_element_c3d8rh.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_element_u8.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_nset.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_elset.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_tie_surface.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_shell.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/part_sro_solid.inp
+*End Part
+*Assembly, name=Assembly
+*Include, input=./sro_wing_fnm_disbond_adjel/assembly_instance_rib.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/assembly_instance_sro_shift.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/assembly_nset.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/assembly_elset.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/assembly_tie_constraint.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/assembly_submodel.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/assembly_surface_disbond.inp
+*End Assembly
+*Include, input=./sro_wing_fnm_disbond_adjel/material.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/section_controls.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/interaction_disbond.inp
+*Include, input=./sro_wing_fnm_disbond_adjel/step350.inp
