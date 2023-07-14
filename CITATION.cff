@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+title: StringerRunOutTopOpt
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Rui
+    family-names: Costa
+    email: r.costa18@imperial.ac.uk
+    affiliation: Imperial College London
+    orcid: 'https://orcid.org/0000-0001-6144-3356'
+  - given-names: Silvestre
+    family-names: Pinho
+    email: silvestre.pinho@imperial.ac.uk
+    affiliation: Imperial College London
+    orcid: 'https://orcid.org/0000-0001-5727-7041'
+identifiers:
+  - type: doi
+    value: 10.1016/j.compstruct.2023.117314
+    description: Paper
+repository-code: >-
+  https://github.com/ImperialCollegeLondon/StringerRunOutTopOpt
+url: 'https://pinholab.cc.ic.ac.uk/'
+abstract: >-
+  The manufacturing of composite structures can lead to
+  material defects. Some of these defects, due to their
+  small size, can go undetected by current non-destructive
+  testing techniques; especially in very large and
+  geometrically complex components. Therefore, it is of
+  paramount importance to design composite components to
+  resist defects by accounting for them as early as
+  possible. Topology optimisation is a methodology whereby
+  complex features, such as cracks and debonds, can be
+  accounted for in the design. Therefore, this work proposes
+  a new approach for the design of very large composite
+  structures. This new approach is enabled by a solid shell
+  element formulation with boundary tracking capabilities
+  (through the floating node and the level-set methods) and
+  optimisation capabilities (through design sensitivity
+  analysis of an energy release rate objective function).
+  Furthermore, this work proposes a new algorithm and
+  modelling workflow that has the ability to handle large
+  multi-scale models. The proposed methodology shows
+  advantages as the ability to track the topology
+  explicitly, and the ability to increase defect tolerance
+  of the design. This works shows the new methodology is
+  capable of handling complex structures, such as a
+  multi-scale stringer run-out model from an aircraft
+  wing-box, while a kissing bond defect is present.
+keywords:
+  - Topology optimisation
+  - Stringer run out
+  - Composite material
+  - Multi-scale methods
+license: BSD-3-Clause
