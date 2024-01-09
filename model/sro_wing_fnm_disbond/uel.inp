@@ -1,0 +1,9 @@
+*User Element, nodes=18, type=U810, properties=6, coordinates=3
+1, 2, 3, 11, 12, 13, 14, 15
+5, 1, 2, 3, 11, 12, 13
+*UEL Property, elset=uels
+165000.0, 8400.0, 0.34, 5600.0, 4200.0, 3500.0
+*User Element, nodes=8, type=U8, properties=1, coordinates=3
+1, 2, 3, 11, 12, 13
+*UEL Property, elset=adjels
+1.

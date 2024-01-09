@@ -1,0 +1,59 @@
+*Step, name=Step-1
+*Static
+1., 1., 1e-07, 1.
+*Boundary, submodel, step=2
+rib.submodel, 1, 1
+rib.submodel, 2, 2
+rib.submodel, 3, 3
+rib.submodel, 4, 4
+rib.submodel, 5, 5
+rib.submodel, 6, 6
+sro.bc, 1, 1
+sro.bc, 2, 2
+sro.bc, 3, 3
+*Boundary
+sro.bcadj, 11, 11
+sro.bcadj, 12, 12
+sro.bcadj, 13, 13
+*Controls, reset
+*Controls, analysis=discontinuous
+*Controls, parameters=line search
+5, , , , 
+*Restart, write, frequency=0
+*Output, field
+*Node output 
+U, UR, NT
+*Output, history, variable=PRESELECT
+*End Step
+*Step, name=Step-2
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-3
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-4
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-5
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-6
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-7
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-8
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-9
+*Static
+1., 1., 1e-07, 1.
+*End Step

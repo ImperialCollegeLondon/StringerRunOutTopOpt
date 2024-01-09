@@ -1,0 +1,4 @@
+*Surface Interaction, name=contact_property
+1.,
+*Contact Pair, interaction=contact_property, adjust=sro.contactset
+surf_contact_slave, surf_contact_master

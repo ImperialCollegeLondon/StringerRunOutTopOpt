@@ -1,0 +1,4 @@
+*Surface, type=ELEMENT, name=surf_contact_master
+mastersurf, S2
+*Surface, type=NODE, name=surf_contact_slave, internal
+sro.contactset, 1.

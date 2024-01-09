@@ -1,0 +1,10 @@
+*Material, name=aluminum
+*Elastic
+70000., 0.33
+*Material, name=cfrp
+*Elastic, type=LAMINA
+165000.,8400., 0.34,5600.,4200.,3500.
+*Material, name=cfrp_3d
+*Elastic, type=ENGINEERING CONSTANTS
+165000.0E-9,8400.0E-9,8400.0E-9, 0.34, 0.34,  0.5,5600.0E-9,4200.0E-9
+3500.0E-9,

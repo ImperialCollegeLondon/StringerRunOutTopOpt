@@ -1,0 +1,55 @@
+*Orientation, name=Ori-HG-0
+0.38888510946709,           0., 0.921286259332445, 0.921286259332445,           0., -0.38888510946709
+3, 0.
+*Orientation, name=Ori-HG-90
+0.38888510946709,           0., 0.921286259332445, 0.921286259332445,           0., -0.38888510946709
+3, 90.
+*Orientation, name=Ori-HG-45
+0.38888510946709,           0., 0.921286259332445, 0.921286259332445,           0., -0.38888510946709
+3, 45.
+*Orientation, name=Ori-HG-M45
+0.38888510946709,           0., 0.921286259332445, 0.921286259332445,           0., -0.38888510946709
+3, -45.
+*Solid Section, elset=hourglass_section, composite, controls=EC-1, stack direction=3, layup=hourglass_elements_section
+1., 1, cfrp_3d, Ori-HG-0, Ply-1
+1., 1, cfrp_3d, Ori-HG-45, Ply-2
+1., 1, cfrp_3d, Ori-HG-45, Ply-3
+1., 1, cfrp_3d, Ori-HG-45, Ply-4
+1., 1, cfrp_3d, Ori-HG-0, Ply-5
+1., 1, cfrp_3d, Ori-HG-0, Ply-6
+1., 1, cfrp_3d, Ori-HG-M45, Ply-7
+1., 1, cfrp_3d, Ori-HG-M45, Ply-8
+1., 1, cfrp_3d, Ori-HG-M45, Ply-9
+1., 1, cfrp_3d, Ori-HG-90, Ply-10
+1., 1, cfrp_3d, Ori-HG-0, Ply-11
+1., 1, cfrp_3d, Ori-HG-45, Ply-12
+1., 1, cfrp_3d, Ori-HG-45, Ply-13
+1., 1, cfrp_3d, Ori-HG-45, Ply-14
+1., 1, cfrp_3d, Ori-HG-0, Ply-15
+1., 1, cfrp_3d, Ori-HG-0, Ply-16
+1., 1, cfrp_3d, Ori-HG-M45, Ply-17
+1., 1, cfrp_3d, Ori-HG-M45, Ply-18
+1., 1, cfrp_3d, Ori-HG-M45, Ply-19
+1., 1, cfrp_3d, Ori-HG-90, Ply-20
+1., 1, cfrp_3d, Ori-HG-90, Ply-20-Copy1
+1., 1, cfrp_3d, Ori-HG-M45, Ply-19-Copy1
+1., 1, cfrp_3d, Ori-HG-M45, Ply-18-Copy1
+1., 1, cfrp_3d, Ori-HG-M45, Ply-17-Copy1
+1., 1, cfrp_3d, Ori-HG-0, Ply-16-Copy1
+1., 1, cfrp_3d, Ori-HG-0, Ply-15-Copy1
+1., 1, cfrp_3d, Ori-HG-45, Ply-14-Copy1
+1., 1, cfrp_3d, Ori-HG-45, Ply-13-Copy1
+1., 1, cfrp_3d, Ori-HG-45, Ply-12-Copy1
+1., 1, cfrp_3d, Ori-HG-0, Ply-11-Copy1
+1., 1, cfrp_3d, Ori-HG-90, Ply-10-Copy1
+1., 1, cfrp_3d, Ori-HG-M45, Ply-9-Copy1
+1., 1, cfrp_3d, Ori-HG-M45, Ply-8-Copy1
+1., 1, cfrp_3d, Ori-HG-M45, Ply-7-Copy1
+1., 1, cfrp_3d, Ori-HG-0, Ply-6-Copy1
+1., 1, cfrp_3d, Ori-HG-0, Ply-5-Copy1
+1., 1, cfrp_3d, Ori-HG-45, Ply-4-Copy1
+1., 1, cfrp_3d, Ori-HG-45, Ply-3-Copy1
+1., 1, cfrp_3d, Ori-HG-45, Ply-2-Copy1
+1., 1, cfrp_3d, Ori-HG-0, Ply-1-Copy1
+*Hourglass Stiffness
+1.0E6, 1.0E6, 1.0E6

@@ -1,0 +1,347 @@
+*Step, name=Step-1
+*Static
+1., 1., 1e-07, 1.
+*Boundary, submodel, step=2
+rib.submodel, 1, 1
+rib.submodel, 2, 2
+rib.submodel, 3, 3
+rib.submodel, 4, 4
+rib.submodel, 5, 5
+rib.submodel, 6, 6
+sro.bc, 1, 1
+sro.bc, 2, 2
+sro.bc, 3, 3
+*Boundary
+sro.bcadj, 11, 11
+sro.bcadj, 12, 12
+sro.bcadj, 13, 13
+*Controls, reset
+*Controls, analysis=discontinuous
+*Controls, parameters=line search
+5, , , , 
+*Restart, write, frequency=0
+*Output, field
+*Node output 
+U, UR, NT
+*Output, history, variable=PRESELECT
+*End Step
+*Step, name=Step-2
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-3
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-4
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-5
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-6
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-7
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-8
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-9
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-10
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-11
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-12
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-13
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-14
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-15
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-16
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-17
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-18
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-19
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-20
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-21
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-22
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-23
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-24
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-25
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-26
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-27
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-28
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-29
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-30
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-31
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-32
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-33
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-34
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-35
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-36
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-37
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-38
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-39
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-40
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-41
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-42
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-43
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-44
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-45
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-46
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-47
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-48
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-49
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-50
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-51
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-52
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-53
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-54
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-55
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-56
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-57
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-58
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-59
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-60
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-61
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-62
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-63
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-64
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-65
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-66
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-67
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-68
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-69
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-70
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-71
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-72
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-73
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-74
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-75
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-76
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-77
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-78
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-79
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-80
+*Static
+1., 1., 1e-07, 1.
+*End Step
+*Step, name=Step-81
+*Static
+1., 1., 1e-07, 1.
+*End Step

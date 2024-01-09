@@ -1,0 +1,4 @@
+*Surface, type=NODE, name=rib_bottom_CNS_, internal
+rib.bottom, 1.
+*Tie, name=cover-rib, adjust=yes, type=NODE TO SURFACE
+rib_bottom_CNS_, sro.master_surf
